@@ -1,0 +1,104 @@
+body {
+background-color: #FCFAE3;
+}
+.container {
+    display: block;
+    margin: auto;
+    justify-content:center;
+    padding-left:2%;
+    padding-right:2%;
+}
+.header{
+    display:block;
+    margin:auto;
+    text-align: center;
+    width:90%;
+}
+.spacer{
+    width:69px;
+}
+.nav-prev{
+    text-align:left;
+}
+.nav-home{
+    margin-left:10%;
+    margin-right:10%;
+}
+.nav-next{
+    text-align:right;
+}
+h1 {
+    color: #282947;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left:2em;
+    margin-right:2em; */
+}
+#main-title{
+    width:50vh;
+    height:25vh;
+    margin:auto;
+    /* margin-top:15px; */
+    border:solid;
+    background-color: #FCFAE3;
+    border-radius:10%;
+    margin-top:25px;
+}
+#site-description-text{
+    color:#282947;
+    margin:1.5em;
+}
+.list-head{
+    color:#282947;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:auto;
+    width: clamp(15em,65vw,70vw);
+    justify-content: center;
+    padding:0.5em;
+    align-content: center;
+}
+td{
+    padding:0.75em;
+}
+.platehead{
+    width:20%;
+    text-align: center;
+}
+.plate{
+    width:clamp(30px,25vw,200px);
+}
+.row{
+    text-align:center;
+    margin-bottom:40px;
+}
+.row2 {
+    display: flex;
+    text-align:left;
+}
+.row3{
+    align-content:center;
+    display:inline-block;
+    margin:auto;
+    width:100%;
+}
+.column{
+    display:block;
+    width:30%;
+    margin-left:5%;
+    margin-right:5%;
+}
+a{
+    margin-left:6%;
+    margin-right:6%;
+    display:inline-block;
+    /* color:#282947; */
+}
+
+
+/* scraping not allowed: arizona arkansas illinois indiana iowa kentucky louisiana maine michigan minnesota north dakota rhode island south carolina*/
+/* kms: colorado florida georgia hawaii idaho kansas massachusetts missouri montana new hampshire new jersey north carolina ohio oklahoma oregon wyoming*/
+/* irdk: nevada, new york texas*/
